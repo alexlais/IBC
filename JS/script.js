@@ -24,7 +24,18 @@ var myApp = angular
 			bannerServicesFiduciary: "images/bannerServicesFiduciary.jpg",
 			bannerServicesFiduciaryTitle: "",
 			bannerServicesNetworks: "images/bannerServicesNetworks.jpg",
-			bannerServicesNetworksTitle: ""
+			bannerServicesNetworksTitle: "",
+
+			bannerAboutLang: "../images/bannerAbout.jpg",
+			bannerReferencesLang: "../images/bannerReferences.jpg",
+			bannerContactLang: "../images/bannerContact.jpg",
+			bannerServicesCorporateLang: "../images/bannerServicesCorporate.jpg",
+			bannerServicesTaxLang: "../images/bannerServicesTax.jpg",
+			bannerServicesMergersLang: "../images/bannerServicesBusiness.jpg",
+			bannerServicesRealstateLang: "../images/bannerServicesRealstate.jpg",
+			bannerServicesInvestmentLang: "../images/bannerServicesInvestment.jpg",
+			bannerServicesFiduciaryLang: "../images/bannerServicesFiduciary.jpg",
+			bannerServicesNetworksLang: "../images/bannerServicesNetworks.jpg",
 		};
 		$scope.banners = banners;
 	}
