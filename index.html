@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>About IBC Group</title>
+	<meta name="description" content="IBC Group">
+	<meta name="author" content="IBC Group">
+	<link href="screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+
+<body>
+<div class="body" ng-app="IBC"><div ng-controller="myController">
+	<div class="mainNav" ng-include="'includes/mainNav.html'"></div>
+   	<div class="page">
+		<div class="subNav" ng-include="'includes/subNav.html'"></div>
+		<div class="content home">
+			<img src="images/home.jpg" alt="Welcome to IBC" width="450" height="441" />
+		</div>
+	</div>
+  	<div class="footer" ng-include="'includes/footer.html'"></div>
+  	<div class="copyright" ng-include="'includes/copyright.html'"></div>
+</div></div>
+
+<script src="JS/jquery-3.1.0.min.js"></script>
+<script src="JS/angular.min.js"></script>
+<script src="JS/script.js"></script>
+
+</body>
+</html>

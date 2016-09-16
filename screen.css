@@ -1,0 +1,386 @@
+@charset "UTF-8";
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+span, li, h1, h2, h3, h4, h5, h6, p, b, u, i, em, strong, sub, sup, td, th, legend {
+    cursor: default;
+}
+/* LINKS -----------------------------------------------------------
+1. Remove the gray background on active links in IE 10.
+2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+*/
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+/* --------------------------------------------------------------- */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+  text-transform: none;
+}
+textarea {
+  overflow: auto;
+}
+button,
+input {
+  overflow: visible;
+}
+/* 
+1. Add the correct box sizing in IE 10-.
+2. Remove the padding in IE 10-.
+*/
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+/* BODY ---------------------------------------------------------- */
+body {
+	background: #F7EEDF;
+	padding: 0;
+  	margin: 0;
+  	font-size: 1em;
+  	font-family: Arial, Helvetica, sans-serif;
+  	color: #999;
+}
+h1 {
+  	font-size: 1.2em;
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+  	color: #993300;
+  	text-transform: uppercase;
+  	margin: 0 0 25px;
+}
+h2 {
+  	font-size: 1.2em;
+  	margin: 25px 0 15px;
+}
+h3 {
+  	font-size: 1.1em;
+}
+.content a {
+  	color: #993300;
+}
+.content p, h3 {
+	margin: 15px 0 0 0;
+	line-height: 150%;
+}
+.content ul, .content ol {
+	margin: 0 0 15px 0;
+	padding: 0 0 0 16px;
+}
+.content ul ul, .content ol ul {
+	margin: 0;
+	padding: 0 0 0 16px;
+}
+.content li p {
+	margin: 5px 0 0;
+}
+p.breadcrumbs {
+	font-size: 0.8em;
+	margin: 0 0 30px 0;
+}
+p.breadcrumbs a {
+  	color: #993300;
+}
+/* Site Width ----------------------------------------------------- */
+.mainNav > ul,
+.banner > div,
+.page,
+.footer {
+	width: 820px;
+	margin: auto;
+	overflow: auto;
+	border: 1px solid rgb(171,163,152);
+	border-width: 0 1px;
+}
+.subNav {
+	float: left;
+	width: 170px;
+}
+.content {
+	float :right;
+	width: 580px;
+	padding-right: 30px;
+}
+.halfWidth {
+	margin-bottom: 30px;
+	background: #FBF7EF;
+	overflow: auto;
+	padding: 0 15px;
+	font-size: 0.9em;
+}
+.halfWidth .left {
+	float: left;
+	width: 40%;
+	padding-bottom: 15px;
+}
+.halfWidth .right {
+	float: right;
+	width: 58%;
+	padding-bottom: 15px;
+}
+.content iframe {
+	padding-bottom: 15px;
+}
+/* mainNav -------------------------------------------------------- */
+.mainNav {
+	font-size: 0.8em;
+	font-weight: bold;
+	border-bottom: 1px solid #ABA398;
+}
+.mainNav ul {
+	padding: 57px 0 10px;
+	list-style: none;
+}
+.mainNav li {
+	float: left;
+	padding-left: 10px;
+}
+.mainNav li.logo {
+	margin-top: -27px;
+	padding-right: 15px;
+}
+.mainNav li.languages {
+	float: right;
+	font-size: 0.9em;
+}
+.mainNav li.languages ul {
+	padding: 0 10px 0 0;
+	margin: 0;
+}
+.mainNav li.languages a {
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-top: 23px;
+}
+.mainNav li.languages li.item1 a {
+	background-image: url("images/flag1.gif"); 
+}
+.mainNav li.languages li.item2 a {
+	background-image: url("images/flag2.gif"); 
+}
+.mainNav li.languages li.item3 a {
+	background-image: url("images/flag3.gif"); 
+}
+.mainNav li.languages li.item4 a {
+	background-image: url("images/flag4.gif"); 
+}
+.mainNav li.languages li.item5 a {
+	background-image: url("images/flag5.gif"); 
+}
+.mainNav a {
+  	color: #993300;
+	text-transform: uppercase;
+}
+.mainNav li.languages a {
+	text-transform: none;
+}
+
+/* banner  -------------------------------------------------------- */
+.banner {
+	border-bottom: 1px solid #ABA398;
+}
+.banner.about {
+	border-bottom: 0;
+}
+.banner img {
+	display: block;
+}
+/* page  -------------------------------------------------------- */
+.page {
+	padding: 20px 0;
+}
+
+/* subNav  -------------------------------------------------------- */
+.subNav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.subNav > ul > li {
+	position: relative;
+	
+}
+.subNav > ul > li > a {
+	padding: 10px 15px;
+	display: block;
+	color: #999;
+	font-size: 0.9em;
+	border-bottom: 1px solid #f0e0c2;
+	font-weight: bold;
+	background: #FBF7EF;
+}
+.subNav > ul > li:hover > a {
+  	background: #993300;
+  	color: white;
+	text-decoration: none;
+}
+.subNav ul ul {
+	display: none;
+	position: absolute;
+	background: #FBF7EF;
+	border-left: 5px solid #993300;
+	border-right: 5px solid #993300;
+	margin-left: 170px;
+	top: 0;
+	width: 330px;
+	-webkit-box-shadow: 10px 10px 10px -5px #999;
+	-moz-box-shadow: 10px 10px 10px -5px #999;
+	box-shadow: 10px 10px 10px -5px #999;
+	padding: 10px 0;
+}
+.subNav ul li:hover ul {
+	display: block;
+}
+.ng-hide-add,
+.ng-hide-remove {
+    display: inline-block !important;
+}
+
+.subNav ul ul li a {
+	display: block;
+	padding: 3px 20px;
+	font-size: 0.9em;
+	color: #999;
+}
+.subNav ul ul li a:hover {
+  	color:  #993300;
+	text-decoration: none;
+}
+/* content  ------------------------------------------------------------ */
+.content {
+	min-height: 250px;
+	padding-bottom: 30px;
+}
+.content.home {
+	text-align: right;
+}
+/* footer ------------------------------------------------------------- */
+.footer {
+	background: #FBF7EF;
+}
+.footer p {
+	text-align: center;
+	color: #993300;
+	font-size: 0.8em;
+}
+/* copyright ------------------------------------------------------------- */
+.copyright {
+	border-top: 1px solid #ABA398;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.copyright p {
+	margin: 5px;
+	font-size: 0.8em;
+}
+/* Media Querry  -------------------------------------------------------- */
+@media only screen and (max-width: 835px) {
+	.mainNav > ul,
+	.page,
+	.footer {
+		width: auto;
+		margin: 0;
+		overflow: auto;
+		border: 0;
+	}
+	.subNav {
+		float: none;
+		width: auto;
+	}
+	.content {
+		float: none;
+		width: auto;
+		padding: 15px;
+		min-height: none;
+		min-height: 0;
+	}
+	.content.home {
+		display: none;
+	}
+	.halfWidth .left, .halfWidth .right {
+		float: none;
+		width: auto;
+	}
+	.content iframe {
+		width: 100%;
+	}
+	.banner {
+		display: none;
+	}
+	.mainNav ul {
+		padding: 15px 0;
+	}
+	.mainNav li {
+		display: block;
+		float: none !important;
+		text-align: center;
+		margin: 0 0 15px !important;
+		padding: 0 !important;
+	}
+	.mainNav li.languages {
+		float: none;
+	}
+	.mainNav li.languages li {
+		display: inline;
+	}
+	.mainNav li.languages a {
+		background: none !important;
+	}
+	.subNav ul ul {
+		position: static;
+		background: #FBF7EF;
+		border: 1px solid #993300;
+		margin-left: 0;
+		width: auto;
+		box-shadow: none;
+		padding: 10px 0;
+	}
+	.subNav ul ul li a {
+		padding: 3px 15px;
+	}
+	.subNav > ul > li:hover > a {
+		border: 0;
+	}
+}
+
+
+
+
+
+
+
+
