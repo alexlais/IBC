@@ -36,6 +36,7 @@ var myApp = angular
 			bannerServicesInvestmentLang: "../images/bannerServicesInvestment.jpg",
 			bannerServicesFiduciaryLang: "../images/bannerServicesFiduciary.jpg",
 			bannerServicesNetworksLang: "../images/bannerServicesNetworks.jpg",
+			bannerServicesSecuredLang: "../images/bannerServicesSecured.jpg",
 		};
 		$scope.banners = banners;
 	}
