@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Grupo IBC - Bienes Raices y Sservicios Hipotecarios</title>
+	<meta name="description" content="IBC Group">
+	<meta name="author" content="IBC Group">
+	<link href="../screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+
+<body>
+<div class="body" ng-app="IBC"><div ng-controller="myController">
+	<div class="mainNav" ng-include="'../includes/mainNavFR.html'"></div>
+   	<div class="banner">
+   		<div>
+			<img src="{{ banners.bannerServicesRealstateLang }}" alt="{{ banners.bannerServicesRealstateTitleFR }}" width="820" height="165" />
+   		</div>
+   	</div>
+   	<div class="page">
+		<div class="subNav" ng-include="'../includes/subNavFR.html'"></div>
+		<div class="content" ng-include="'../content/FRcontentServicesRealstate.html'">
+		</div>
+	</div>
+  	<div class="footer" ng-include="'../includes/footer.html'"></div>
+  	<div class="copyright" ng-include="'../includes/copyright.html'"></div>
+</div></div>
+
+<script src="../JS/jquery-3.1.0.min.js"></script>
+<script src="../JS/angular.min.js"></script>
+<script src="../JS/script.js"></script>
+
+</body>
+</html>
