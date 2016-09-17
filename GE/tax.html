@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Group IBC - Perfil de la Firma</title>
+	<title>Grupo IBC - Servicios de Impuestos y Activos</title>
 	<meta name="description" content="IBC Group">
 	<meta name="author" content="IBC Group">
 	<link href="../screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -11,17 +11,18 @@
 
 <body>
 <div class="body" ng-app="IBC"><div ng-controller="myController">
-	<div class="mainNav" ng-include="'../includes/mainNavFR.html'"></div>
-   	<div class="banner about">
+	<div class="mainNav" ng-include="'../includes/mainNavGE.html'"></div>
+   	<div class="banner">
    		<div>
-			<img src="{{ banners.bannerHistoryLang }}" alt="{{ banners.bannerHistoryTitleFR }}" width="820" height="165" />
+			<img src="{{ banners.bannerServicesTaxLang }}" alt="{{ banners.bannerServicesTaxTitleGE }}" width="820" height="165" />
    		</div>
    	</div>
    	<div class="page">
-		<div class="subNav" ng-include="'../includes/subNavFR.html'"></div>
-		<div class="content" ng-include="'../content/FRcontentHistory.html'">
+		<div class="subNav" ng-include="'../includes/subNavGE.html'"></div>
+		<div class="content" ng-include="'../content/GEcontentServicesTax.html'">
 		</div>
 	</div>
+  	<div class="footer" ng-include="'../includes/footer.html'"></div>
   	<div class="copyright" ng-include="'../includes/copyright.html'"></div>
 </div></div>
 

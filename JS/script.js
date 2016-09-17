@@ -39,8 +39,8 @@ var myApp = angular
 			bannerServicesSecuredLang: "../images/bannerServicesSecured.jpg",
 
 			bannerHistoryTitleES: "Perfil de la Firma",
-			bannerReferencesTitleES: "",
-			bannerContactTitleES: "",
+			bannerReferencesTitleES: "Referencias",
+			bannerContactTitleES: "Cont&aacute;ctenos",
 			bannerServicesCorporateTitleES: "Servicios Corporativos",
 			bannerServicesTaxTitleES: "Servicios de Impuestos y Activos",
 			bannerServicesMergersTitleES: "Comision De Negocios: Fusiones &amp; Adquisiciones",
