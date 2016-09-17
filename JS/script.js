@@ -2,8 +2,8 @@ var myApp = angular
 	.module("IBC", [])
 	.controller("myController", function ($scope) {
 		var banners = { 
-			bannerAbout: "images/bannerAbout.jpg",
-			bannerAboutTitle: "",
+			bannerHistory: "images/bannerHistory.jpg",
+			bannerHistoryTitle: "",
 			
 			bannerReferences: "images/bannerReferences.jpg",
 			bannerReferencesTitle: "",
@@ -26,7 +26,7 @@ var myApp = angular
 			bannerServicesNetworks: "images/bannerServicesNetworks.jpg",
 			bannerServicesNetworksTitle: "",
 
-			bannerAboutLang: "../images/bannerAbout.jpg",
+			bannerHistoryLang: "../images/bannerAbout.jpg",
 			bannerReferencesLang: "../images/bannerReferences.jpg",
 			bannerContactLang: "../images/bannerContact.jpg",
 			bannerServicesCorporateLang: "../images/bannerServicesCorporate.jpg",
