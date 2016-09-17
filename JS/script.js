@@ -26,7 +26,7 @@ var myApp = angular
 			bannerServicesNetworks: "images/bannerServicesNetworks.jpg",
 			bannerServicesNetworksTitle: "",
 
-			bannerHistoryLang: "../images/bannerAbout.jpg",
+			bannerHistoryLang: "../images/bannerHistory.jpg",
 			bannerReferencesLang: "../images/bannerReferences.jpg",
 			bannerContactLang: "../images/bannerContact.jpg",
 			bannerServicesCorporateLang: "../images/bannerServicesCorporate.jpg",
